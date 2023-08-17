@@ -12,10 +12,8 @@ function App() {
       <NavBar />
       <Home />
       <About />
-    
       <Experience />
       <Contact />
-
       <SocialLinks />
     </div>
   );
