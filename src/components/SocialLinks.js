@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/romyjeanpierre/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md bg-gradient-to-r  from-cyan-500 to text-teal-950 text-white",
     },
     {
       id: 2,
@@ -23,6 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/romyjeanpierre",
+      style: 'bg-gradient-to-r  from-cyan-500 to text-teal-950 text-white'
     },
     {
       id: 3,
@@ -32,6 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:romyjeanpierre@yahoo.com",
+      style: 'bg-gradient-to-r  from-cyan-500 to text-teal-950 text-white'
     },
     {
       id: 4,
@@ -41,7 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md bg-gradient-to-r  from-cyan-500 to text-teal-950 text-white",
       download: true,
     },
   ];

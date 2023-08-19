@@ -1,13 +1,13 @@
 import React from "react";
-import HeroImage from "../assets/heroImage2.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import Selfie from "../assets/selfie.png";
+import { BsArrowRightCircle } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-gray-900 via-black to-gray-600"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -27,7 +27,7 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                <BsArrowRightCircle size={25} className="ml-1" />
               </span>
             </Link>
           </div>
@@ -35,9 +35,9 @@ const Home = () => {
 
         <div>
           <img
-            src={HeroImage}
+            src={Selfie}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-2/3 font-burtons border shadow-teal-800"
+            className="rounded-2xl mx-auto w-2/3 md:w-1/2 font-burtons border shadow-teal-800"
           />
         </div>
       </div>

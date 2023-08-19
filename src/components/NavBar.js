@@ -20,7 +20,7 @@ import { Link } from "react-scroll";
       },
       {
         id: 4,
-        link: "experience",
+        link: "technicalSkills",
       },
       {
         id: 5,
@@ -33,7 +33,7 @@ import { Link } from "react-scroll";
     return (
       <div className="flex justify-between items-center w-full h-19 px-4 bg-gradient-to-r  from-cyan-500 to text-teal-950  fixed">
         <div>
-          <h1 className="text-6xl font-signature ml-2 text-teal-900">Romy A. Jean-Pierre</h1>
+          <h1 className="text-4xl font-signature ml-2 text-teal-900">Romy A. Jean-Pierre</h1>
         </div>
   
         <ul className="hidden md:flex">
@@ -51,7 +51,7 @@ import { Link } from "react-scroll";
   
         <div
           onClick={() => setNav(!nav)}
-          className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+          className="cursor-pointer pr-4 z-10 text-cyan-500 md:hidden"
         >
           {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
