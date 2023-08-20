@@ -14,14 +14,30 @@ const About = () => {
         </div>
 
         <p className="text-xl text-teal-500">
-          Hello, my name is Romy Jean-Pierre. I am a motivated, dedicated and enthusiastic Junior Software Engineer.  I am a graduate of Adelphi University, with a Bachelor's Degree in Business Management and Communication. I am also enrolled in two rigorous Tech courses: 1. Perscholas to earn a certificate in Software Engineering. 2. Network Walks to earn an official certificate from Cisco in Cyber Security. 
+          Hello, my name is Romy Jean-Pierre. I am a motivated, dedicated and enthusiastic Junior Software and Cyber-Security Engineer. Presently, I'm enrolled in Network Walks to earn an official certificate from Cisco in Cyber Security, and also attending PerScholas to earn a certificate in Software Engineering. The experience has been and continues to be fulfilling and rewarding, offering a unique blend of problem-solving challenges, good research, creativity, analytical thinking and much more.
              
         </p>
 
         <br />
 
         <p className="text-xl text-teal-500">
-          I am a self starter and motivated team player with ability to accomplish tasks independently. Through my professional experience in public health, customer service and No-Fault Insurance, I have gained and strengthened many skills that are transferrable to the tech industry, such as: 
+         Through my professional experience in the insurance and medical industries, I have gained and strengthened many skills that are transferrable to the tech industry, such as:
+         <br />
+         <br />
+         <h2 className="text-xl text-white">
+            1. Adaptability - I am comfortable adapting and succeeding in unfamiliar environments. 
+          <br />
+          <br />
+            2. Teamwork - I work well with others in various situations and environments and can effectively resolve teamwork issues such as communication breakdowns and personality conflicts.
+          <br /> 
+          <br />
+            3. Time management - Meeting deadlines is a key part of almost every role I held.  
+          <br />
+          <br />
+            4. Resourcefulness - Being resourceful is my area of expertise. I am able to get things done using my resources and proactive in finding solutions. 
+          </h2>
+          <br />
+          Languages I speak are: French and Creole
          
         </p>
       </div>

@@ -41,7 +41,7 @@ const Contact = () => {
               className="p-2 bg-transparent border-2 rounded-md text-teal-500 focus:outline-none"
             ></textarea>
 
-            <button className= "bg-gradient-to-r  from-cyan-500 to text-teal text-white  px-6 py-3 my-8 mx-auto flex items-center rounded-md font-burtons border hover:scale-110 duration-300">
+            <button className= "bg-gradient-to-r  from-cyan-500 to text-teal text-white  px-6 py-3 my-8 mx-auto flex items-center rounded-md font-burtons border hover:scale-110 duration-300 font-burtons shadow-2xl shadow-white-200 hover:shadow-cyan-500">
               Connect with Romy 
             </button>
           </form>

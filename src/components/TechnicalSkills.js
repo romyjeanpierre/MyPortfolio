@@ -3,8 +3,8 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import reactImage from "../assets/react.png";
-import github from "../assets/github.png";
+import reactImage from "../assets/react2.png";
+import github from "../assets/github2.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import kaliLinux from "../assets/kaliLinux.png";
@@ -15,49 +15,49 @@ const TechnicalSkills = () => {
       id: 1,
       src: reactImage,
       title: "React",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500",
     },
     {
       id: 2,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500",
     },
     {
       id: 3,
       src: node,
       title: "Node",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500 ",
     },
     {
       id: 4,
       src: github,
       title: "GitHub",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500",
     },
     {
       id: 5,
       src: html,
       title: "HTML",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500 ",
     },
     {
       id: 6,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500",
     },
     {
       id: 7,
       src: css,
       title: "CSS",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500",
     },
     {
       id: 8,
       src: kaliLinux,
       title: "Kali Linux",
-      style: "shadow-teal-500",
+      style: "shadow-cyan-500 font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500",
     },
   ];
 

@@ -4,7 +4,7 @@ import Contact from "./components/Contact";
 import TechnicalSkills from "./components/TechnicalSkills";
 import Home from "./components/Home";
 //import Portfolio from "./components/Portfolio";
-import SocialLinks from "./components/SocialLinks";
+import SocialBar from "./components/SocialBar";
 import Quotes from "./components/Quotes";
 //import TechnicalSkills from "./components/TechnicalSkills";
 
@@ -16,7 +16,7 @@ function App() {
       <About />
       <TechnicalSkills />
       <Contact />
-      <SocialLinks />
+      <SocialBar />
       <Quotes />
     </div>
   );

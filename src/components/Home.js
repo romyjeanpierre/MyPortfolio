@@ -26,7 +26,7 @@ const Home = () => {
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-cyan-500 to text-teal text-white font-burtons border cursor-pointer"
             >
               Portfolio
-              <span className="group-hover:rotate-90 duration-300">
+              <span className="group-hover:rotate-90 duration-300 shadow-2xl shadow-white-200 hover:shadow-cyan-500">
                 <BsArrowRightCircle size={25} className="ml-1" />
               </span>
             </Link>
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={Selfie}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-1/2 font-burtons border shadow-teal-800"
+            className="rounded-3xl mx-auto w-2/3 md:w-3/ font-burtons border shadow-2xl shadow-white-200 hover:shadow-cyan-500"
           />
         </div>
       </div>

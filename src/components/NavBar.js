@@ -33,14 +33,14 @@ import { Link } from "react-scroll";
     return (
       <div className="flex justify-between items-center w-full h-19 px-4 bg-gradient-to-r  from-cyan-500 to text-teal-950  fixed">
         <div>
-          <h1 className="text-4xl font-signature ml-2 text-teal-900">Romy A. Jean-Pierre</h1>
+          <h1 className="text-4xl font-signature ml-2 text-teal-900 font-burtons shadow-2xl shadow-white-200 hover:shadow-cyan-500">Romy A. Jean-Pierre</h1>
         </div>
   
         <ul className="hidden md:flex">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium bold text-teal-400 hover:scale-105 duration-200"
+              className="px-4 cursor-pointer capitalize font-medium bold text-teal-400 hover:scale-105 duration-200 font-burtons border shadow-2xl shadow-gray hover:shadow-cyan-500 "
             >
               <Link to={link} smooth duration={500}>
                 {link}
