@@ -24,7 +24,7 @@ const About = () => {
          Through my professional experience in the insurance and medical industries, I have gained and strengthened many skills that are transferrable to the tech industry, such as:
          <br />
          <br />
-         <h2 className="text-xl text-white">
+         <h2 className="text-xl text-orange-200">
             1. Adaptability - I am comfortable adapting and succeeding in unfamiliar environments. 
           <br />
           <br />
